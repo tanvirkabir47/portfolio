@@ -551,24 +551,101 @@
 	
 			  <div class="chat-box">
 				<div class="chat-box-header">
-				  <h3>Live Chat</h3>
-				  <p class="chat-box-toggle"><i class="fa-solid fa-xmark"></i></p>
+				  <div>
+					<h5>Live Support</h5>
+				  </div>
+				  <p class="chat-box-toggle m-0"><i class="fa fa-times"></i></p>
 				</div>
-				<div class="chat-box-body">
+	
+				<div id="chat-box" class="chat-box-body d-none">
 				  <div class="chat-box-overlay"></div>
-				  <div class="chat-logs">
-					<div class="chat-list-section">
-					  <div class="chat-whatsapp">
-						<a aria-label="Chat on WhatsApp" href="https://wa.me/+8801719048200"> <i
-							class="fa-brands fa-whatsapp"></i> Chat on WhatsApp</a>
+				  <div class="chat-logs position-relative">
+					<div class="chat-list-section ">
+					  <div class="right-chat">
+						<div class="right-chat-design">
+						  <span>Hello !</span>
+						</div>
 					  </div>
-					  <div class="chat-sent-email mt-8">
-						<a aria-label="Chat on WhatsApp" href="mailto:tanvirkabir47@.com"> <i
-							class="fa-regular fa-envelope"></i>Send E-mail</a>
+					  <div class="left-chat d-flex align-items-center">
+						<div class="">
+						  <img src="images/profile-1.jpeg" alt="" width="40px">
+						</div>
+						<div class="left-chat-design">
+						  <span>Welcome to my Portfolio</span>
+						</div>
+					  </div>
+					  <div class="right-chat">
+						<div class="right-chat-design">
+						  <span>Are you active now ?</span>
+						</div>
+					  </div>
+					  <div class="left-chat d-flex align-items-center">
+						<div class="">
+							<img src="images/profile-1.jpeg" alt="" width="40px">
+						</div>
+						<div class="left-chat-design">
+						  <span>Sorry ! i'm busy now</span>
+						</div>
+					  </div>
+					  <div class="right-chat">
+						<div class="right-chat-design">
+						  <span>Can I talk to you with live chat ?</span>
+						</div>
+					  </div>
+					  <div class="left-chat d-flex align-items-center">
+						<div class="">
+							<img src="images/profile-1.jpeg" alt="" width="40px">
+						</div>
+						<div class="left-chat-design">
+						  <span>Sorry about that. I'm coming very soon we will be able to launch the direct chat system.</span>
+						</div>
+					  </div>
+					  <div class="right-chat">
+						<div class="right-chat-design">
+						  <span>Okey ! We are waiting </span>
+						</div>
+					  </div>
+					  <div class="left-chat d-flex align-items-center">
+						<div class="">
+							<img src="images/profile-1.jpeg" alt="" width="40px">
+						</div>
+						<div class="left-chat-design">
+						  <span>Thank you for your support</span>
+						</div>
+					  </div>
+					  <div class="right-chat">
+						<div class="right-chat-design">
+						  <span>You're Wellcome !</span>
+						</div>
 					  </div>
 					</div>
-				  </div>
+	
 				  <!--chat-log -->
+				</div>
+			  </div>
+	
+	
+			  <div id="user-details-box" class="chat-box-body user-details-collect">
+				<div class="chat-logs-user-detais">
+					<div class="chat-list-section">
+						<div class="chat-whatsapp">
+						  <a aria-label="Chat on WhatsApp" href="https://wa.me/+8801719048200"> <i
+							  class="fa-brands fa-whatsapp"></i> Chat on WhatsApp</a>
+						</div>
+						<div class="chat-sent-email mt-8">
+						  <a aria-label="Chat on WhatsApp" href="mailto:tanvirkabir47@.com"> <i
+							  class="fa-regular fa-envelope"></i>Send E-mail</a>
+						</div>
+					  </div>
+				  <button id="start-chat"><i class="fa-regular fa-paper-plane"></i> Start Chat</button>
+				</div>
+			  </div>
+	
+	
+	
+				<div id="message-input" class="message-input-box d-none">
+				  <textarea disabled name="" id="" rows="1" placeholder="Type Message & hit enter"></textarea>
+				  <a href=""><i class="fa-regular fa-paper-plane"></i></a>
 				</div>
 			  </div>
 	
@@ -614,6 +691,17 @@
 			chatCircle.style.display = "block";
 			chatBox.style.display = "none";
 			});
+		});
+
+		const startChat = document.getElementById("start-chat");
+		const userDetailsBox = document.getElementById("user-details-box");
+		const chatBox = document.getElementById("chat-box");
+		const messageBox = document.getElementById("message-input");
+
+		startChat.addEventListener('click', function(){
+		userDetailsBox.classList.add ("d-none");
+		chatBox.classList.remove ("d-none");
+		messageBox.classList.remove ("d-none");
 		});
 
 	</script>
