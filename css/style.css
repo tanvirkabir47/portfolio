@@ -391,10 +391,10 @@ section .title::after{
 }
 .project-image img{
     margin-top: 0;
-    transition: all 1s;
+    transition: all 5s;
 }
 .project-image img:hover{
-    margin-top: -100%;
+    margin-top: -250%;
 }
 .project-text {
     margin-left: 50px;
@@ -556,9 +556,6 @@ section .title::after{
     grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
     grid-auto-flow: dense;
     margin: 20px auto;
-}
-.single-team-member{
-    
 }
 .single-member-img{
     position: relative;
