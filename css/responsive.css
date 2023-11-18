@@ -50,14 +50,9 @@
     .about .col-md-6, .project .col-md-6:last-child, .services .col-md-4, .skills .col-md-6:last-child, .contact .col-md-6:last-child{
         overflow: hidden;
     }
-    .f-video iframe{ 
-        height: 265px;
-    }
-    .s-video iframe{
-        height: 125px;
-    }
-    .s-video iframe:nth-child(1){
-        margin-bottom: 5px;
+    .single-member-content{
+        padding: 5px;
+        top: 76%;
     }
 
 }
@@ -179,15 +174,16 @@
     .social-media ul li a {
         font-size: 20px;
     }
-    .f-video iframe{ 
-        height: 240px;
-        margin-bottom: 8px;
+    .single-member-content{
+        padding: 5px;
+        top: 81%;
     }
-    .s-video iframe{
-        height: 240px;
+    .single-member-content h4{
+        font-size: 20px;
+        margin-bottom: 0;
     }
-    .s-video iframe:nth-child(1){
-        margin-bottom: 8px;
+    .single-member-content p{
+        font-size: 16px;
     }
 }
 
