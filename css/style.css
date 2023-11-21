@@ -1038,3 +1038,17 @@ footer span a{
   text-align: justify;
 }
 
+.live-time-section{
+    position: fixed;
+    bottom: 25px;
+    background: crimson;
+    color: #fff;
+    border-radius: 0px 10px 10px 0px;
+}
+.live-time-section h1{
+    padding: 7px 15px;
+    font-size: 25px;
+    margin: 0;
+    font-weight: 600;
+}
+
