@@ -98,7 +98,7 @@ img{
     z-index: 9999;
     font-size: 25px;
     border-bottom-width: 2px;
-    cursor: pointer;
+    cursor: url(../images/hover-cursor.png), auto;
     opacity: 0;
     pointer-events: none;
     transition: all 0.3s ease;
@@ -168,6 +168,7 @@ section .title::after{
 .header-section .logo h2{
     color: #fff;
     font-size: 40px;
+    cursor: url(../images/hover-cursor.png), auto;
 }
 .navbar{
     float: right;
@@ -183,11 +184,12 @@ section .title::after{
     margin-left: 20px;
     font-size: 18px;
     font-weight: bold;
+    cursor: url(../images/hover-cursor.png), auto;
 }
 .menu-btn{
     color: #fff;
     font-size: 23px;
-    cursor: pointer;
+    cursor: url(../images/hover-cursor.png), auto;
     display: none;
 }
 
@@ -239,10 +241,12 @@ section .title::after{
     border-radius: 6px;
     border: 2px solid crimson;
     transition: all 0.3s ease;
+
 }
 .home .home-content a:hover{
     color: crimson;
     background: none;
+    cursor: url(../images/hover-cursor.png), auto;
 }
 
 
@@ -341,7 +345,7 @@ section .title::after{
     min-height: 350px;
     border-radius: 6px;
     padding: 50px 25px;
-    cursor: pointer;
+    cursor: url(../images/hover-cursor.png), auto;
     transition: all 0.3s ease;
 }
 .services .card:hover{
@@ -571,7 +575,7 @@ section .title::after{
     height: 100%;
     text-align: center;
     padding: 10px 5px;
-    cursor: pointer;
+    cursor: url(../images/hover-cursor.png), auto;
     color: #fff;
     transition: .8s;
 }
@@ -584,7 +588,7 @@ section .title::after{
     height: 100%;
     text-align: center;
     padding: 10px 5px;
-    cursor: pointer;
+    cursor: url(../images/hover-cursor.png), auto;
     color: #fff;
 }
 .single-member-img img{
@@ -754,7 +758,7 @@ footer span a{
     position: fixed;
     bottom: 120px;
     right: 20px;  
-    cursor: pointer;
+    cursor: url(../images/hover-cursor.png), auto;
     z-index: 999;
   }
   #chat-circle{
@@ -813,7 +817,7 @@ footer span a{
     margin: 20px 0;
   }
   .chat-box-toggle {
-    cursor:pointer;
+    cursor: pointer;
   }
   .chat-box-header {
     display: flex;
