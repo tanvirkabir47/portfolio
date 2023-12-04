@@ -25,6 +25,7 @@ DEFAULT STYLE START
 
 body {
     font-family: 'Poppins', sans-serif;
+    cursor: url(../images/custome-cursor.png), auto;
 }
 
 html{
