@@ -25,7 +25,6 @@ DEFAULT STYLE START
 
 body {
     font-family: 'Poppins', sans-serif;
-    cursor: url(../images/custome-cursor.png), auto;
 }
 
 html{
@@ -98,7 +97,7 @@ img{
     z-index: 9999;
     font-size: 25px;
     border-bottom-width: 2px;
-    cursor: url(../images/hover-cursor.png), auto;
+    cursor: pointer;
     opacity: 0;
     pointer-events: none;
     transition: all 0.3s ease;
@@ -168,7 +167,7 @@ section .title::after{
 .header-section .logo h2{
     color: #fff;
     font-size: 40px;
-    cursor: url(../images/hover-cursor.png), auto;
+    cursor: pointer;
 }
 .navbar{
     float: right;
@@ -184,12 +183,12 @@ section .title::after{
     margin-left: 20px;
     font-size: 18px;
     font-weight: bold;
-    cursor: url(../images/hover-cursor.png), auto;
+    cursor: pointer;
 }
 .menu-btn{
     color: #fff;
     font-size: 23px;
-    cursor: url(../images/hover-cursor.png), auto;
+    cursor: pointer;
     display: none;
 }
 
@@ -246,7 +245,7 @@ section .title::after{
 .home .home-content a:hover{
     color: crimson;
     background: none;
-    cursor: url(../images/hover-cursor.png), auto;
+    cursor: pointer;
 }
 
 
@@ -345,7 +344,7 @@ section .title::after{
     min-height: 350px;
     border-radius: 6px;
     padding: 50px 25px;
-    cursor: url(../images/hover-cursor.png), auto;
+    cursor: pointer;
     transition: all 0.3s ease;
 }
 .services .card:hover{
@@ -575,7 +574,7 @@ section .title::after{
     height: 100%;
     text-align: center;
     padding: 10px 5px;
-    cursor: url(../images/hover-cursor.png), auto;
+    cursor: pointer;
     color: #fff;
     transition: .8s;
 }
@@ -588,7 +587,7 @@ section .title::after{
     height: 100%;
     text-align: center;
     padding: 10px 5px;
-    cursor: url(../images/hover-cursor.png), auto;
+    cursor: pointer;
     color: #fff;
 }
 .single-member-img img{
@@ -758,7 +757,7 @@ footer span a{
     position: fixed;
     bottom: 120px;
     right: 20px;  
-    cursor: url(../images/hover-cursor.png), auto;
+    cursor: pointer;
     z-index: 999;
   }
   #chat-circle{
